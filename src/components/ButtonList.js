@@ -6,7 +6,7 @@ const ButtonList = () => {
   return (
     <div className="flex justify-around">
       <div className="w-[95%] flex overflow-hidden">
-        <Button name="All" />
+        <Button name="All" addedClass="bg-black text-white" />
         <Button name="Live" />
         <Button name="Music" />
         <Button name="Computer programming" />
